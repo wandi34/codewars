@@ -1,0 +1,7 @@
+/target/
+
+.project
+.vscode
+node_modules
+.classpath
+.settings
