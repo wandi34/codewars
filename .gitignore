@@ -5,3 +5,7 @@
 node_modules
 .classpath
 .settings
+
+#Rust
+#Added by cargo
+rust/target
