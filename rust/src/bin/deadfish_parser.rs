@@ -9,17 +9,12 @@ fn parse(code: &str) -> Vec<i32> {
     let mut tmp: i32 = 0;
     let mut result: Vec<i32> = Vec::new();
     for c in code.chars() { 
-        if c == 'i' {
-            tmp += 1;
-        }
-        if c == 'd' {
-            tmp -= 1;
-        }
-        if c == 's' {
-            tmp = tmp * tmp;
-        }
-        if c == 'o' {
-            result.push(tmp)
+        match c {
+            'i' => tmp += 1,
+            'd' => tmp -= 1,
+            's' => tmp *= tmp,
+            'o' => result.push(tmp),
+            _ => {}
         }
     }
     return result;
