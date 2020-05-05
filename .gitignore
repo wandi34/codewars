@@ -9,3 +9,8 @@ node_modules
 #Rust
 #Added by cargo
 rust/target
+
+#Scala
+scala/project/target
+scala/target
+scala/.idea
