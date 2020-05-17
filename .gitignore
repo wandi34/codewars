@@ -14,3 +14,7 @@ rust/target
 scala/project/target
 scala/target
 scala/.idea
+
+# Golang
+golang/bin
+golang/pkg
