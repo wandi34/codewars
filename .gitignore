@@ -5,6 +5,9 @@ node_modules
 .classpath
 .settings
 
+# Typescript
+typescript_lang/out
+
 #Rust
 #Added by cargo
 rust/target

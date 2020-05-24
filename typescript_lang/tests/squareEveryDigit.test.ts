@@ -1,5 +1,5 @@
 import {assert} from "chai";
-import { squareEveryDigit as cut } from "../src/SquareEveryDigit"
+import { squareEveryDigit as cut } from "../src/squareEveryDigit"
 
 describe("squareDigits", function() {
   it("should pass the example codeWars test", function() {

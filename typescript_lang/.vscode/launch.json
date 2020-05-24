@@ -16,7 +16,8 @@
             "type": "node",
             "request": "launch",
             "name": "Mocha Current File",
-            "program": "${workspaceFolder}/typescript_lang/node_modules/mocha/bin/_mocha",
+            "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
+            "protocol": "inspector",
             "args": [
               "--no-timeouts",
               "--colors",
