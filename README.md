@@ -12,3 +12,6 @@ I also added config files for some IDEs (vscode) to show how they have to be con
 
 ### Ruby
 - Start tests simply by `ruby TESTFILE.rb`
+
+### Golang
+- Start tests simply in the folder by `go test`
