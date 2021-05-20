@@ -15,3 +15,11 @@ I also added config files for some IDEs (vscode) to show how they have to be con
 
 ### Golang
 - Start tests simply in the folder by `go test`
+
+### Scala
+- Sbt is needed for build and run
+- inside `codewars/scala` 
+    - run `sbt test` to run all tests
+    - run `sbt "test:testOnly DescendingOrderSpec"` to run only `DescendingOrderSpec` test
+    - run `sbt "test:testOnly DescendingOrderSpec -- -z complexer"` ro run only tests matching substring `complexer`
+

@@ -4,6 +4,8 @@
 node_modules
 .classpath
 .settings
+.metals
+.vscode
 
 # Typescript
 typescript_lang/out
@@ -13,7 +15,7 @@ typescript_lang/out
 rust/target
 
 #Scala
-scala/project/target
+scala/project
 scala/target
 scala/.idea
 
